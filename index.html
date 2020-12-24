@@ -1,9 +1,15 @@
 ---
 layout: home
-
-# Index page
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT License
 ---
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+            <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
