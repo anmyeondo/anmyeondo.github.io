@@ -3,7 +3,7 @@ title: Clean
 email: wogns1733@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   For Stack blog
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "./" # the subpath of your site, e.g. /blog/
 url: "http://anmyeondo.github.io" # the base hostname & protocol for your site
 twitter_username: username
 github_username:  anmyeondo
