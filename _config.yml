@@ -24,7 +24,7 @@ description              : "Anmyeondo's stack blog"
 url                      : "https://anmyeondo.github.io/"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/img/cat.png"
+logo                     : "/assets/img/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -93,7 +93,7 @@ analytics:
 # Site Author
 author:
   name             : "Anmyeondo"
-  avatar           : "/assets/img/cat.png"
+  avatar           : "/assets/img/avatar.png"
   bio              : "I am an **amazing** person."
   location         : "South Korea Anmyeondo"
   email            :
